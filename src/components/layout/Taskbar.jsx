@@ -34,7 +34,7 @@ export default function Taskbar({
             onClick={toggleStart}
           >
             <img
-              src="/images/screen/windows.png"
+              src="images/apps/windows.png"
               alt="windows_logo"
               className="h-8"
             />
@@ -46,7 +46,7 @@ export default function Taskbar({
             }}
           >
             <img
-              src="/images/screen/explorer.png"
+              src="images/apps/explorer.png"
               alt="windows_logo"
               className="h-7"
             />
@@ -56,7 +56,7 @@ export default function Taskbar({
             onClick={toggleBrowser}
           >
             <img
-              src="/images/screen/edge.png"
+              src="images/apps/edge.png"
               alt="windows_logo"
               className="h-8"
             />

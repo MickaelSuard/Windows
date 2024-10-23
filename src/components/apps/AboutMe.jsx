@@ -173,7 +173,7 @@ const AboutMe = ({ page, handleDivClick, expandedDiv }) => {
                   onDoubleClick={() => handleDivClick(1)}
                 >
                   <img
-                    src="/images/screen/folder.png"
+                    src="images/apps/folder.png"
                     alt="Technical"
                     className="w-12 h-12"
                   />
@@ -187,7 +187,7 @@ const AboutMe = ({ page, handleDivClick, expandedDiv }) => {
                   onDoubleClick={() => handleDivClick(2)}
                 >
                   <img
-                    src="/images/screen/folder.png"
+                    src="images/apps/folder.png"
                     alt="Soft"
                     className="w-12 h-12"
                   />
@@ -201,7 +201,7 @@ const AboutMe = ({ page, handleDivClick, expandedDiv }) => {
                   onDoubleClick={() => handleDivClick(3)}
                 >
                   <img
-                    src="/images/screen/folder.png"
+                    src="images/apps/folder.png"
                     alt="Design"
                     className="w-12 h-12"
                   />
