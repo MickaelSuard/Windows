@@ -53,7 +53,7 @@ const Explorer = ({ isExplorerOpen, toggleExplorer, aboutMe, bounds }) => {
               <div className="flex justify-between items-center w-full">
                 <div className="pl-2 text-xs flex">
                   <img
-                    src={`/images/folders/${icon}.png`}
+                    src={`images/folders/${icon}.png`}
                     alt="main icons"
                     className="w-5 h-5 mr-2"
                   />
@@ -117,7 +117,7 @@ const Explorer = ({ isExplorerOpen, toggleExplorer, aboutMe, bounds }) => {
               <div className="flex items-center">
                 <div className="flex items-center justify-center w-24 h-full text-xs gap-1 border-neutral-700 border-r-[1.5px] opacity-45">
                   <img
-                    src="/images/options/new.png"
+                    src="images/options/new.png"
                     alt="new"
                     className="w-5 h-5"
                   />
@@ -128,32 +128,32 @@ const Explorer = ({ isExplorerOpen, toggleExplorer, aboutMe, bounds }) => {
                 </div>
                 <div className="flex h-full w-72 justify-around items-center border-neutral-700 border-r-[1.5px] opacity-45">
                   <img
-                    src="/images/options/cut.png"
+                    src="images/options/cut.png"
                     alt="cut"
                     className="h-5 w-5"
                   />
                   <img
-                    src="/images/options/copy.png"
+                    src="images/options/copy.png"
                     alt="copy"
                     className="h-5 w-5"
                   />
                   <img
-                    src="/images/options/paste.png"
+                    src="images/options/paste.png"
                     alt="paste"
                     className="h-7 w-7"
                   />
                   <img
-                    src="/images/options/rename.png"
+                    src="images/options/rename.png"
                     alt="rename"
                     className="h-5 w-5"
                   />
                   <img
-                    src="/images/options/share.png"
+                    src="images/options/share.png"
                     alt="share"
                     className="h-5 w-5"
                   />
                   <img
-                    src="/images/options/delete.png"
+                    src="images/options/delete.png"
                     alt="delete"
                     className="h-5 w-5"
                   />
@@ -161,7 +161,7 @@ const Explorer = ({ isExplorerOpen, toggleExplorer, aboutMe, bounds }) => {
                 <div className="flex h-full items-center w-72 justify-around border-neutral-700 border-r-[1.5px]">
                   <div className="flex items-center justify-center h-full text-xs gap-1 opacity-45">
                     <img
-                      src="/images/options/sort.png"
+                      src="images/options/sort.png"
                       alt="sort"
                       className="w-5 h-5"
                     />
@@ -172,7 +172,7 @@ const Explorer = ({ isExplorerOpen, toggleExplorer, aboutMe, bounds }) => {
                   </div>
                   <div className="flex items-center justify-center h-full text-xs gap-1 opacity-80">
                     <img
-                      src="/images/options/view.png"
+                      src="images/options/view.png"
                       alt="view"
                       className="w-5 h-5"
                     />
@@ -183,7 +183,7 @@ const Explorer = ({ isExplorerOpen, toggleExplorer, aboutMe, bounds }) => {
                   </div>
                   <div className="flex items-center justify-center h-full text-xs gap-1 opacity-80">
                     <img
-                      src="/images/options/filter.png"
+                      src="images/options/filter.png"
                       alt="filter"
                       className="w-5 h-5"
                     />
@@ -194,14 +194,14 @@ const Explorer = ({ isExplorerOpen, toggleExplorer, aboutMe, bounds }) => {
                   </div>
                 </div>
                 <img
-                  src="/images/options/dots.png"
+                  src="images/options/dots.png"
                   alt="dots"
                   className="w-3.5 h-3.5 ml-4"
                 />
               </div>
               <div className="flex items-center mr-8 text-xs">
                 <img
-                  src="/images/options/details.png"
+                  src="images/options/details.png"
                   alt="details"
                   className="w-5 h-5 mr-1"
                 />
@@ -215,7 +215,7 @@ const Explorer = ({ isExplorerOpen, toggleExplorer, aboutMe, bounds }) => {
                     <div className="border-b-[1.5px] border-neutral-700 h-20">
                       <div className="flex items-center justify-center mr-8 text-xs hover:bg-neutral-700 w-full h-8 rounded-sm">
                         <img
-                          src="/images/folders/home.png"
+                          src="images/folders/home.png"
                           alt="details"
                           className="w-5 h-5 mr-1"
                         />
@@ -223,7 +223,7 @@ const Explorer = ({ isExplorerOpen, toggleExplorer, aboutMe, bounds }) => {
                       </div>
                       <div className="flex items-center justify-center mr-8 text-xs hover:bg-neutral-700 w-full h-8 rounded-sm">
                         <img
-                          src="/images/folders/gallery.png"
+                          src="images/folders/gallery.png"
                           alt="details"
                           className="w-5 h-5 mr-1"
                         />
@@ -233,7 +233,7 @@ const Explorer = ({ isExplorerOpen, toggleExplorer, aboutMe, bounds }) => {
                     <div className="mt-3.5 border-b-[1.5px] border-neutral-700 h-52">
                       <div className="flex relative items-center pl-6 mr-8 text-xs hover:bg-neutral-700 w-full h-8 rounded-sm">
                         <img
-                          src="/images/folders/Desktop.ico"
+                          src="images/folders/Desktop.ico"
                           alt="details"
                           className="w-5 h-5 mr-1"
                         />
@@ -244,7 +244,7 @@ const Explorer = ({ isExplorerOpen, toggleExplorer, aboutMe, bounds }) => {
                       </div>
                       <div className="flex relative items-center pl-6 mr-8 text-xs hover:bg-neutral-700 w-full h-8 rounded-sm">
                         <img
-                          src="/images/folders/Downloads.ico"
+                          src="images/folders/Downloads.ico"
                           alt="details"
                           className="w-5 h-5 mr-1"
                         />
@@ -255,7 +255,7 @@ const Explorer = ({ isExplorerOpen, toggleExplorer, aboutMe, bounds }) => {
                       </div>
                       <div className="flex relative items-center pl-6 mr-8 text-xs hover:bg-neutral-700 w-full h-8 rounded-sm">
                         <img
-                          src="/images/folders/Documents.ico"
+                          src="images/folders/Documents.ico"
                           alt="details"
                           className="w-5 h-5 mr-1"
                         />
@@ -266,7 +266,7 @@ const Explorer = ({ isExplorerOpen, toggleExplorer, aboutMe, bounds }) => {
                       </div>
                       <div className="flex relative items-center pl-6 mr-8 text-xs hover:bg-neutral-700 w-full h-8 rounded-sm">
                         <img
-                          src="/images/folders/Photos.ico"
+                          src="images/folders/Photos.ico"
                           alt="details"
                           className="w-5 h-5 mr-1"
                         />
@@ -277,7 +277,7 @@ const Explorer = ({ isExplorerOpen, toggleExplorer, aboutMe, bounds }) => {
                       </div>
                       <div className="flex relative items-center pl-6 mr-8 text-xs hover:bg-neutral-700 w-full h-8 rounded-sm">
                         <img
-                          src="/images/folders/Music.ico"
+                          src="images/folders/Music.ico"
                           alt="details"
                           className="w-5 h-5 mr-1"
                         />
@@ -288,7 +288,7 @@ const Explorer = ({ isExplorerOpen, toggleExplorer, aboutMe, bounds }) => {
                       </div>
                       <div className="flex relative items-center pl-6 mr-8 text-xs hover:bg-neutral-700 w-full h-8 rounded-sm">
                         <img
-                          src="/images/folders/Videos.ico"
+                          src="images/folders/Videos.ico"
                           alt="details"
                           className="w-5 h-5 mr-1"
                         />
@@ -301,7 +301,7 @@ const Explorer = ({ isExplorerOpen, toggleExplorer, aboutMe, bounds }) => {
                     <div className="mt-3.5 border-b-[1.5px] border-neutral-700 h-52">
                       <div className="flex items-center pl-12 mr-8 text-xs hover:bg-neutral-700 w-full h-8 rounded-sm relative">
                         <img
-                          src="/images/folders/Computer.ico"
+                          src="images/folders/Computer.ico"
                           alt="details"
                           className="w-4 h-4 mr-1"
                         />
@@ -312,7 +312,7 @@ const Explorer = ({ isExplorerOpen, toggleExplorer, aboutMe, bounds }) => {
                       </div>
                       <div className="flex items-center pl-12 mr-8 text-xs hover:bg-neutral-700 w-full h-8 rounded-sm relative">
                         <img
-                          src="/images/folders/Network.ico"
+                          src="images/folders/Network.ico"
                           alt="details"
                           className="w-4 h-4 mr-1"
                         />
@@ -333,7 +333,7 @@ const Explorer = ({ isExplorerOpen, toggleExplorer, aboutMe, bounds }) => {
                     <div className="h-32 w-[87vh] mr-32 grid grid-cols-3 grid-rows-2">
                       <div className="flex justify-center items-center h-16 w-full hover:bg-neutral-700 rounded-md hover:bg-opacity-30">
                         <img
-                          src="/images/folders/Desktop.ico"
+                          src="images/folders/Desktop.ico"
                           alt="Desktop"
                           className="w-14 h-14 mr-4"
                         />
@@ -351,7 +351,7 @@ const Explorer = ({ isExplorerOpen, toggleExplorer, aboutMe, bounds }) => {
                       </div>
                       <div className="flex justify-center items-center h-16 w-full hover:bg-neutral-700 rounded-md hover:bg-opacity-30">
                         <img
-                          src="/images/folders/Downloads.ico"
+                          src="images/folders/Downloads.ico"
                           alt="Downloads"
                           className="w-14 h-14 mr-4"
                         />
@@ -369,7 +369,7 @@ const Explorer = ({ isExplorerOpen, toggleExplorer, aboutMe, bounds }) => {
                       </div>
                       <div className="flex justify-center items-center h-16 w-full hover:bg-neutral-700 rounded-md hover:bg-opacity-30">
                         <img
-                          src="/images/folders/Documents.ico"
+                          src="images/folders/Documents.ico"
                           alt="Documents"
                           className="w-14 h-14 mr-4"
                         />
@@ -387,7 +387,7 @@ const Explorer = ({ isExplorerOpen, toggleExplorer, aboutMe, bounds }) => {
                       </div>
                       <div className="flex justify-center items-center h-16 w-full hover:bg-neutral-700 rounded-md hover:bg-opacity-30">
                         <img
-                          src="/images/folders/Photos.ico"
+                          src="images/folders/Photos.ico"
                           alt="Pictures"
                           className="w-14 h-14 mr-4"
                         />
@@ -405,7 +405,7 @@ const Explorer = ({ isExplorerOpen, toggleExplorer, aboutMe, bounds }) => {
                       </div>
                       <div className="flex justify-center items-center h-16 w-full hover:bg-neutral-700 rounded-md hover:bg-opacity-30">
                         <img
-                          src="/images/folders/Music.ico"
+                          src="images/folders/Music.ico"
                           alt="Music"
                           className="w-14 h-14 mr-4"
                         />
@@ -423,7 +423,7 @@ const Explorer = ({ isExplorerOpen, toggleExplorer, aboutMe, bounds }) => {
                       </div>
                       <div className="flex justify-center items-center h-16 w-full hover:bg-neutral-700 rounded-md hover:bg-opacity-30">
                         <img
-                          src="/images/folders/Videos.ico"
+                          src="images/folders/Videos.ico"
                           alt="Videos"
                           className="w-14 h-14 mr-4"
                         />
@@ -471,7 +471,7 @@ const Explorer = ({ isExplorerOpen, toggleExplorer, aboutMe, bounds }) => {
                     }}
                   >
                     <img
-                      src="/images/folders/me.png"
+                      src="images/folders/me.png"
                       alt="me"
                       className="w-5 h-5 mr-2.5"
                     />
@@ -488,7 +488,7 @@ const Explorer = ({ isExplorerOpen, toggleExplorer, aboutMe, bounds }) => {
                     }}
                   >
                     <img
-                      src="/images/folders/edu.png"
+                      src="images/folders/edu.png"
                       alt="edu"
                       className="w-5 h-5 mr-2.5"
                     />
@@ -505,7 +505,7 @@ const Explorer = ({ isExplorerOpen, toggleExplorer, aboutMe, bounds }) => {
                     }}
                   >
                     <img
-                      src="/images/folders/skills.png"
+                      src="images/folders/skills.png"
                       alt="skills"
                       className="w-5 h-5 mr-2.5"
                     />
@@ -522,7 +522,7 @@ const Explorer = ({ isExplorerOpen, toggleExplorer, aboutMe, bounds }) => {
                     }}
                   >
                     <img
-                      src="/images/folders/projects.png"
+                      src="images/folders/projects.png"
                       alt="My Stuffs"
                       className="w-5 h-5 mr-2.5"
                     />
@@ -539,7 +539,7 @@ const Explorer = ({ isExplorerOpen, toggleExplorer, aboutMe, bounds }) => {
                     }}
                   >
                     <img
-                      src="/images/folders/resume.png"
+                      src="images/folders/resume.png"
                       alt="Resume"
                       className="w-5 h-5 mr-2.5"
                     />

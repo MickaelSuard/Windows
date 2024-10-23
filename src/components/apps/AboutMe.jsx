@@ -222,7 +222,7 @@ const AboutMe = ({ page, handleDivClick, expandedDiv }) => {
               <div className="flex absolute top-0 gap-1">
                 <div className="w-[6.5em] h-28 flex flex-col pt-2 items-center rounded-md hover:bg-white hover:bg-opacity-20">
                   <img
-                    src="/images/folders/communication.png"
+                    src="images/folders/communication.png"
                     alt="Communication"
                     className="w-12 h-12"
                   />
@@ -232,7 +232,7 @@ const AboutMe = ({ page, handleDivClick, expandedDiv }) => {
                 </div>
                 <div className="w-[6em] h-28 flex flex-col pt-2 items-center rounded-md hover:bg-white hover:bg-opacity-20">
                   <img
-                    src="/images/folders/teamwork.png"
+                    src="images/folders/teamwork.png"
                     alt="Teamwork"
                     className="w-12 h-12"
                   />
@@ -242,7 +242,7 @@ const AboutMe = ({ page, handleDivClick, expandedDiv }) => {
                 </div>
                 <div className="w-[5em] h-28 flex flex-col pt-2 items-center rounded-md hover:bg-white hover:bg-opacity-20">
                   <img
-                    src="/images/folders/problem.png"
+                    src="images/folders/problem.png"
                     alt="Problem"
                     className="w-12 h-12"
                   />
@@ -252,7 +252,7 @@ const AboutMe = ({ page, handleDivClick, expandedDiv }) => {
                 </div>
                 <div className="w-[6em] h-28 flex flex-col justify-center items-center rounded-md hover:bg-white hover:bg-opacity-20">
                   <img
-                    src="/images/folders/management.png"
+                    src="images/folders/management.png"
                     alt="Project"
                     className="w-12 h-12"
                   />

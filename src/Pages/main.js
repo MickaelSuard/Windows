@@ -73,10 +73,10 @@ function Main() {
 
   const images = useMemo(
     () => [
-      "/images/fun/1.gif",
-      "/images/fun/2.jpg",
-      "/images/fun/3.jpg",
-      "/images/fun/4.jpg",
+      "images/fun/1.gif",
+      "images/fun/2.jpg",
+      "images/fun/3.jpg",
+      "images/fun/4.jpg",
     ],
     []
   );
@@ -107,19 +107,19 @@ function Main() {
                 className="w-64 h-64 object-cover rounded-lg shadow-lg"
               />
               <div>Windows is now sleeping💤</div>
-              <audio src="/audio/sleep.mp3" autoPlay loop />
-              <audio src="/audio/lullaby.mp3" autoPlay loop />
+              <audio src="audio/sleep.mp3" autoPlay loop />
+              <audio src="audio/lullaby.mp3" autoPlay loop />
             </div>
           )}
           {actionType === "shutdown" && (
             <div className="flex flex-col gap-4 justify-center items-center w-full h-screen">
               <img
-                src="/images/fun/xp.jpg"
+                src="images/fun/xp.jpg"
                 alt="Random"
                 className="w-1/2 h-1/2 object-cover rounded-lg shadow-lg"
               />
               <div>BYE BYE👋🏻</div>
-              <audio src="/audio/shutdown.mp3" autoPlay />
+              <audio src="audio/shutdown.mp3" autoPlay />
             </div>
           )}
         </div>
