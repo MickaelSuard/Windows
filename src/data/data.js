@@ -290,7 +290,7 @@ const appsData = [
   {
     id: 6,
     name: "VS Code",
-    icon: "https://laaouatni.github.io/w11CSSimages/vs-code.ico",
+    icon: "https://laaouatni.github.io/w11CSS/images/vs-code.ico",
     action: "vscode",
     size: "w-8 h-8",
   },
