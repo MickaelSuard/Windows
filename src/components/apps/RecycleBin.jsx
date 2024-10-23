@@ -36,7 +36,7 @@ const RecycleBin = ({ isRecycleOpen, toggleRecycle, bounds }) => {
               <div className="flex justify-between items-center w-full">
                 <div className="pl-2 text-xs flex">
                   <img
-                    src={`/images/apps/recyclebin.png`}
+                    src={`/images/screen/recyclebin.png`}
                     alt="main icons"
                     className="w-5 h-5 mr-2"
                   />
