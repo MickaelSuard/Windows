@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Windows/static/css/main.b321ec78.css",
+    "main.js": "/Windows/static/js/main.8576e755.js",
+    "index.html": "/Windows/index.html",
+    "main.b321ec78.css.map": "/Windows/static/css/main.b321ec78.css.map",
+    "main.8576e755.js.map": "/Windows/static/js/main.8576e755.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b321ec78.css",
+    "static/js/main.8576e755.js"
+  ]
+}
